@@ -7,7 +7,8 @@
     "test": "jest",
     "start": "node index.js",
     "lint": "npx eslint .",
-    "coverage": "nyc jest"
+    "coverage": "nyc jest",
+    "build": "echo Build completed successfully"
   },
   "keywords": [],
   "author": "",
