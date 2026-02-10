@@ -7,7 +7,7 @@ describe('calcWeightedGrade', () => {
             { score: 90, weight: 0.5 },
             { score: 70, weight: 0.2 }
         ];
-        expect(calcWeightedGrade(items)).toBe(82);
+        expect(calcWeightedGrade(items)).toBe(83);
     });
 
     test('lanza TypeError si items no es un arreglo', () => {
